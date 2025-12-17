@@ -98,7 +98,7 @@ const Contact = () => {
               className="w-full text-white font-bold py-4 rounded shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 flex items-center justify-center text-lg"
               style={{ backgroundColor: theme.colors.primary }}
             >
-              <span className="mr-2">{theme.id === 'naruto' ? '🌀' : theme.id === 'onePiece' ? '🏴‍☠️' : '👺'}</span> 
+              <span className="mr-2">{theme.emoji}</span> 
               {theme.text.submitButtonText}
             </button>
           </form>

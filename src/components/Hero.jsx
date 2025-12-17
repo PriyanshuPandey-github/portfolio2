@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Scroll, Send, Anchor, Sword } from 'lucide-react';
+import { Scroll, Send, Anchor, Sword, Flower, Eye, Gamepad, Play } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 
 const Hero = () => {
   const { theme } = useTheme();
-  const MainIcon = theme.icons.main === 'Anchor' ? Anchor : theme.icons.main === 'Sword' ? Sword : Scroll;
+  const MainIcon = theme.icons.main === 'Anchor' ? Anchor : theme.icons.main === 'Sword' ? Sword : theme.icons.main === 'Flower' ? Flower : theme.icons.main === 'Eye' ? Eye : theme.icons.main === 'Gamepad' ? Gamepad : theme.icons.main === 'Play' ? Play : Scroll;
 
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">

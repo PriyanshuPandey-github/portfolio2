@@ -6,6 +6,8 @@ export const themes = {
   naruto: {
     id: 'naruto',
     name: 'Hidden Leaf',
+    devTitle: 'SHINOBI DEV',
+    emoji: '🌀',
     colors: {
       primary: '#FF5D00', // Naruto Orange
       secondary: '#00A2FF', // Chakra Blue
@@ -73,6 +75,8 @@ export const themes = {
   onePiece: {
     id: 'onePiece',
     name: 'Straw Hat',
+    devTitle: 'PIRATE DEV',
+    emoji: '🏴‍☠️',
     colors: {
       primary: '#D4AF37', // Gold/Straw Hat
       secondary: '#FF0000', // Luffy Red
@@ -140,6 +144,8 @@ export const themes = {
   demonSlayer: {
     id: 'demonSlayer',
     name: 'Demon Slayer Corps',
+    devTitle: 'HASHIRA DEV',
+    emoji: '👺',
     colors: {
       primary: '#2E8B57', // Tanjiro Green
       secondary: '#DC143C', // Nezuko/Rengoku Red
@@ -202,6 +208,351 @@ export const themes = {
     icons: {
       main: 'Sword',
       secondary: 'Flame',
+    }
+  },
+  soloLeveling: {
+    id: 'soloLeveling',
+    name: 'Shadow Monarch',
+    devTitle: 'HUNTER DEV',
+    emoji: '🌑',
+    colors: {
+      primary: '#000000ff', // Indigo
+      secondary: '#00BFFF', // Electric Blue
+      background: '#35154aff', // Deep Black
+      text: '#ffffff',
+      accent: '#9400D3', // Dark Violet
+    },
+    images: {
+      heroBg: 'https://images.alphacoders.com/115/1153549.jpg', // Sung Jin Woo
+      contactBg: 'https://wallpapercave.com/wp/wp8367964.jpg', // System/Dark
+      profile: heroImage1, // Reuse existing
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Solo_Leveling_logo.svg/1200px-Solo_Leveling_logo.svg.png',
+      education: [
+        "https://images.alphacoders.com/133/1331776.jpeg", // Training
+        "https://images.alphacoders.com/115/1153549.jpg" // Dungeon
+      ],
+      experience: [
+        "https://images.alphacoders.com/134/1343834.jpeg", // Igris Fight
+        "https://images.alphacoders.com/133/1331776.jpeg" // Beru Fight
+      ],
+      skills: [
+        "https://images.alphacoders.com/133/1331776.jpeg", // Daggers
+        "https://images.alphacoders.com/134/1343834.jpeg", // Shadows
+        "https://images.alphacoders.com/115/1153549.jpg", // System
+        "https://images.alphacoders.com/133/1331776.jpeg", // Arise
+        "https://images.alphacoders.com/134/1343834.jpeg" // Monarch
+      ]
+    },
+    text: {
+      title: 'Shadow Monarch',
+      tagline: 'I alone level up.',
+      nindo: 'System',
+      heroPrefix: "SYSTEM'S",
+      profession: 'hunter',
+      resumeButtonText: 'Hunter License',
+      educationTitle: 'System Training',
+      educationSubtitle: 'Leveling Log',
+      experienceTitle: 'Dungeon Raids',
+      experienceSubtitle: 'Raid History',
+      experienceType: 'raids',
+      missionLabel: 'Quest',
+      skillsTitle: 'Active Skills',
+      skillsSubtitle: 'Runestones',
+      frameworksTitle: 'Shadow Army',
+      projectsTitle: 'System Quests',
+      projectsSubtitle: 'Hidden Dungeons',
+      projectLabel: 'Dungeon',
+      techLabel: 'Mana',
+      contactTitle: 'Guild Invite',
+      contactSubtitle: 'Recruit Me',
+      contactDescription: 'Send a guild invite. I might accept if the raid is interesting.',
+      nameLabel: 'Hunter Name',
+      emailLabel: 'Hunter ID',
+      messageLabel: 'Quest Details',
+      submitButtonText: 'Send Invite',
+      footerQuote: 'Arise. 🌑',
+      powerSystem: 'Mana',
+    },
+    ranks: ['E-Rank', 'D-Rank', 'C-Rank', 'B-Rank', 'A-Rank', 'S-Rank', 'National Level'],
+    icons: {
+      main: 'Sword',
+      secondary: 'Ghost',
+    }
+  },
+  hellParadise: {
+    id: 'hellParadise',
+    name: 'Jigokuraku',
+    devTitle: 'ASAEMON DEV',
+    emoji: '🌸',
+    colors: {
+      primary: '#FB7185', // Rose/Flower Pink
+      secondary: '#4ADE80', // Island Green
+      background: '#1a1a1a',
+      text: '#ffffff',
+      accent: '#F472B6', // Pink
+    },
+    images: {
+      heroBg: 'https://images.alphacoders.com/131/1311306.jpeg', // Gabimaru & Sagiri
+      contactBg: 'https://images.alphacoders.com/131/1312366.jpeg', // Flowers
+      profile: heroImage1, // Reuse existing
+      logo: 'https://image.tmdb.org/t/p/original/mZX5gaq3zLWw8aqy4nNoViyXAtM.png',
+      education: [
+        "https://images.alphacoders.com/131/1311306.jpeg",
+        "https://images.alphacoders.com/131/1312366.jpeg"
+      ],
+      experience: [
+        "https://images.alphacoders.com/131/1311306.jpeg",
+        "https://images.alphacoders.com/131/1312366.jpeg"
+      ],
+      skills: [
+        "https://images.alphacoders.com/131/1311306.jpeg",
+        "https://images.alphacoders.com/131/1312366.jpeg",
+        "https://images.alphacoders.com/131/1311306.jpeg",
+        "https://images.alphacoders.com/131/1312366.jpeg",
+        "https://images.alphacoders.com/131/1311306.jpeg"
+      ]
+    },
+    text: {
+      title: 'Yamada Asaemon',
+      tagline: 'Finding beauty in the void.',
+      nindo: 'Tao',
+      heroPrefix: "SHOGUNATE'S",
+      profession: 'executioner',
+      resumeButtonText: 'Pardon Scroll',
+      educationTitle: 'Dojo Training',
+      educationSubtitle: 'Sword Arts',
+      experienceTitle: 'Island Expeditions',
+      experienceSubtitle: 'Expedition Log',
+      experienceType: 'expeditions',
+      missionLabel: 'Task',
+      skillsTitle: 'Tao Attributes',
+      skillsSubtitle: 'Elemental Tao',
+      frameworksTitle: 'Ninjutsu & Kenjutsu',
+      projectsTitle: 'Island Mysteries',
+      projectsSubtitle: 'Elixir Research',
+      projectLabel: 'Investigation',
+      techLabel: 'Attribute',
+      contactTitle: 'Magistrate Office',
+      contactSubtitle: 'Request Execution',
+      contactDescription: 'Submit your request to the magistrate. The Asaemon will review it.',
+      nameLabel: 'Criminal/Samurai Name',
+      emailLabel: 'Contact Address',
+      messageLabel: 'Request Details',
+      submitButtonText: 'Submit Request',
+      footerQuote: 'I will return alive. 🌸',
+      powerSystem: 'Tao',
+    },
+    ranks: ['Rank 12', 'Rank 11', 'Rank 10', 'Rank 9', 'Rank 8', 'Rank 1'],
+    icons: {
+      main: 'Flower',
+      secondary: 'Sword',
+    }
+  },
+  biggBoss: {
+    id: 'biggBoss',
+    name: 'Bigg Boss',
+    devTitle: 'CAPTAIN DEV',
+    emoji: '👁️',
+    colors: {
+      primary: '#F59E0B', // Amber/Gold
+      secondary: '#3B82F6', // Blue
+      background: '#1a1a1a',
+      text: '#ffffff',
+      accent: '#EF4444', // Red (Eviction)
+    },
+    images: {
+      heroBg: 'https://images.alphacoders.com/133/1331776.jpeg', // Placeholder - need generic BB background
+      contactBg: 'https://images.alphacoders.com/131/1312366.jpeg', // Placeholder
+      profile: heroImage1, // Reuse existing
+      logo: 'https://www.nicepng.com/png/full/130-1307530_how-a-common-man-can-apply-for-tv.png',
+      education: [
+        "https://images.alphacoders.com/133/1331776.jpeg",
+        "https://images.alphacoders.com/131/1312366.jpeg"
+      ],
+      experience: [
+        "https://images.alphacoders.com/133/1331776.jpeg",
+        "https://images.alphacoders.com/131/1312366.jpeg"
+      ],
+      skills: [
+        "https://images.alphacoders.com/133/1331776.jpeg",
+        "https://images.alphacoders.com/131/1312366.jpeg",
+        "https://images.alphacoders.com/133/1331776.jpeg",
+        "https://images.alphacoders.com/131/1312366.jpeg",
+        "https://images.alphacoders.com/133/1331776.jpeg"
+      ]
+    },
+    text: {
+      title: 'Bigg Boss House',
+      tagline: 'Bigg Boss chahte hain ki aap code karein.',
+      nindo: 'Rulebook',
+      heroPrefix: "HOUSE'S",
+      profession: 'captain',
+      resumeButtonText: 'Rule Book',
+      educationTitle: 'Secret Room Tasks',
+      educationSubtitle: 'Task History',
+      experienceTitle: 'Luxury Budget Tasks',
+      experienceSubtitle: 'Weekly Tasks',
+      experienceType: 'tasks',
+      missionLabel: 'Task',
+      skillsTitle: 'Strategy & Mind Games',
+      skillsSubtitle: 'Game Plan',
+      frameworksTitle: 'Alliances & Groups',
+      projectsTitle: 'Captaincy Tasks',
+      projectsSubtitle: 'Ticket to Finale',
+      projectLabel: 'Task',
+      techLabel: 'Strategy',
+      contactTitle: 'Confession Room',
+      contactSubtitle: 'Nominate Someone',
+      contactDescription: 'Bigg Boss chahte hain ki aap confession room mein aayein.',
+      nameLabel: 'Housemate Name',
+      emailLabel: 'Mic ID',
+      messageLabel: 'Confession',
+      submitButtonText: 'Nominate',
+      footerQuote: 'Bigg Boss ki aankh sab dekh rahi hai. 👁️',
+      powerSystem: 'Influence',
+    },
+    ranks: ['Commoner', 'Celebrity', 'Wild Card', 'Captain', 'Finalist', 'Winner'],
+    icons: {
+      main: 'Eye',
+      secondary: 'Mic',
+    }
+  },
+  gtaV: {
+    id: 'gtaV',
+    name: 'Los Santos',
+    devTitle: 'CRIMINAL DEV',
+    emoji: '💰',
+    colors: {
+      primary: '#4ade80', // HUD Green (Vibrant)
+      secondary: '#1c1917', // Dark Stone
+      background: '#000000', // Pure Black
+      text: '#ffffff',
+      accent: '#f59e0b', // HUD Amber
+    },
+    images: {
+      heroBg: 'https://images.alphacoders.com/437/437881.jpg', // Vinewood Sign / Los Santos
+      contactBg: 'https://images.alphacoders.com/456/456637.jpg', // Heist Planning Board
+      profile: heroImage1, // Reuse existing
+      logo: 'https://pngimg.com/d/gta_PNG13.png',
+      education: [
+        "https://images.alphacoders.com/437/437881.jpg",
+        "https://images.alphacoders.com/456/456637.jpg"
+      ],
+      experience: [
+        "https://images.alphacoders.com/437/437881.jpg",
+        "https://images.alphacoders.com/456/456637.jpg"
+      ],
+      skills: [
+        "https://images.alphacoders.com/437/437881.jpg",
+        "https://images.alphacoders.com/456/456637.jpg",
+        "https://images.alphacoders.com/437/437881.jpg",
+        "https://images.alphacoders.com/456/456637.jpg",
+        "https://images.alphacoders.com/437/437881.jpg"
+      ]
+    },
+    text: {
+      title: 'Grand Theft Code',
+      tagline: 'Wasted time is wasted money.',
+      nindo: 'The Score',
+      heroPrefix: "LOS SANTOS'",
+      profession: 'mastermind',
+      resumeButtonText: 'Rap Sheet',
+      educationTitle: 'Flight School',
+      educationSubtitle: 'Stats',
+      experienceTitle: 'Heist Setup',
+      experienceSubtitle: 'Heist Log',
+      experienceType: 'heists',
+      missionLabel: 'Job',
+      skillsTitle: 'Weapon Wheel',
+      skillsSubtitle: 'Inventory',
+      frameworksTitle: 'Vehicles & Gear',
+      projectsTitle: 'The Big Score',
+      projectsSubtitle: 'Heist Plans',
+      projectLabel: 'Heist',
+      techLabel: 'Gear',
+      contactTitle: 'Lester\'s Contact',
+      contactSubtitle: 'Call for a Job',
+      contactDescription: 'Need a hacker for the next big score? Contact me.',
+      nameLabel: 'Crew Member Name',
+      emailLabel: 'Burner Phone',
+      messageLabel: 'Job Details',
+      submitButtonText: 'Setup Heist',
+      footerQuote: 'Mission Passed! Respect +',
+      powerSystem: 'Money',
+    },
+    ranks: ['Thug', 'Hustler', 'Soldier', 'Boss', 'Kingpin'],
+    icons: {
+      main: 'Gamepad',
+      secondary: 'DollarSign',
+    }
+  },
+  netflix: {
+    id: 'netflix',
+    name: 'Tudum',
+    devTitle: 'STREAMING DEV',
+    emoji: '🍿',
+    colors: {
+      primary: '#454545ff', // Netflix Red
+      secondary: '#ffffff', // White
+      background: '#f30000ff', // Netflix Black
+      text: '#ffffff',
+      accent: '#010101ff', // Dark Red
+    },
+    images: {
+      heroBg: 'https://images.alphacoders.com/132/1326370.jpeg', // Dark/Cinematic
+      contactBg: 'https://images.alphacoders.com/113/1130939.jpeg', // Abstract Red/Black
+      profile: heroImage1, // Reuse existing
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png',
+      education: [
+        "https://images.alphacoders.com/132/1326370.jpeg",
+        "https://images.alphacoders.com/113/1130939.jpeg"
+      ],
+      experience: [
+        "https://images.alphacoders.com/132/1326370.jpeg",
+        "https://images.alphacoders.com/113/1130939.jpeg"
+      ],
+      skills: [
+        "https://images.alphacoders.com/132/1326370.jpeg",
+        "https://images.alphacoders.com/113/1130939.jpeg",
+        "https://images.alphacoders.com/132/1326370.jpeg",
+        "https://images.alphacoders.com/113/1130939.jpeg",
+        "https://images.alphacoders.com/132/1326370.jpeg"
+      ]
+    },
+    text: {
+      title: 'Original Series',
+      tagline: 'See what\'s next.',
+      nindo: 'My List',
+      heroPrefix: "NETFLIX",
+      profession: 'creator',
+      resumeButtonText: 'Play Trailer',
+      educationTitle: 'Docuseries',
+      educationSubtitle: 'Season 1',
+      experienceTitle: 'Trending Now',
+      experienceSubtitle: 'Top 10',
+      experienceType: 'episodes',
+      missionLabel: 'Episode',
+      skillsTitle: 'Genres & Tags',
+      skillsSubtitle: 'More Like This',
+      frameworksTitle: 'Cast & Crew',
+      projectsTitle: 'New Releases',
+      projectsSubtitle: 'Coming Soon',
+      projectLabel: 'Movie',
+      techLabel: 'Genre',
+      contactTitle: 'Account Settings',
+      contactSubtitle: 'Manage Profile',
+      contactDescription: 'Want to collaborate on a new Original? Pitch your idea.',
+      nameLabel: 'Profile Name',
+      emailLabel: 'Account Email',
+      messageLabel: 'Pitch',
+      submitButtonText: 'Add to List',
+      footerQuote: 'Tudum. 🍿',
+      powerSystem: 'Stream',
+    },
+    ranks: ['Viewer', 'Binger', 'Critic', 'Director', 'Producer'],
+    icons: {
+      main: 'Play',
+      secondary: 'Clapperboard',
     }
   }
 };

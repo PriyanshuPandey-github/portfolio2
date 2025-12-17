@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Scroll, Anchor, Sword } from 'lucide-react';
+import { Menu, X, Scroll, Anchor, Sword, Flower, Eye, Gamepad, Play } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useTheme } from '../context/ThemeContext';
 
@@ -16,7 +16,7 @@ const Navbar = () => {
     { name: 'Summon', href: '#contact' },
   ];
 
-  const MainIcon = theme.icons.main === 'Anchor' ? Anchor : theme.icons.main === 'Sword' ? Sword : Scroll;
+  const MainIcon = theme.icons.main === 'Anchor' ? Anchor : theme.icons.main === 'Sword' ? Sword : theme.icons.main === 'Flower' ? Flower : theme.icons.main === 'Eye' ? Eye : theme.icons.main === 'Gamepad' ? Gamepad : theme.icons.main === 'Play' ? Play : Scroll;
 
   return (
     <nav className="fixed w-full z-50 bg-[var(--color-background)]/90 backdrop-blur-sm border-b-2" style={{ borderColor: theme.colors.primary }}>
@@ -25,7 +25,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <MainIcon className="h-8 w-8 animate-pulse" style={{ color: theme.colors.primary }} />
             <span className="ml-2 text-2xl font-ninja tracking-wider" style={{ color: theme.colors.text }}>
-              {theme.id === 'naruto' ? 'SHINOBI DEV' : theme.id === 'onePiece' ? 'PIRATE DEV' : 'HASHIRA DEV'}
+              {theme.devTitle}
             </span>
           </div>
           
